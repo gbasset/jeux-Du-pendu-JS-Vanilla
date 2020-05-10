@@ -40,7 +40,7 @@ const figureParts = document.querySelectorAll('.figure-part');
 
 const words = [
   'application', 'pragrammer', 'chaussette', 'vache', 'quiche', 'electron', 'dindon', 'zizi', 'caca', 'jambon', 'avion', 'terre', 'caniche', 'voiture', 'joue', "maman", "taupe", "cabane", "mondial", "triangle", "dangereux", "tambourin", "labyrinthe", "kaléidoscope", "conquistador", "conspirateur", "rhododendron", "qualification", "Protozoaire", "quadrilatère", "zygomatique", "sorcellerie", "belligérant", "cithare", "chariot", "clairon", "corbeau", "cortège", "crapaud", "cymbale", "dentier", "djembé", "drapeau", "exemple", "fourmis", "grandir", "iceberg", "javelot", "jockey",
-  "journal", "journée", "jouxter", "losange", "macadam", "mondial", "notable", "oxygène", "panique", "pétrole, poterie, pouvoir, renégat, scooter, senteur, sifflet, spirale, sucette, trophe, tonneau, trousse, tunique, ukulélé, vautour", "zozoter",
+  "journal", "journée", "jouxter", "losange", "macadam", "mondial", "notable", "oxygène", "panique", "pétrole", "poterie", "pouvoir", "renégat", "scooter", "senteur", "sifflet", "spirale", "sucette", "trophe", "tonneau", "trousse", "tunique", "ukulélé", "vautour", "zozoter", "slip-kangourou",
   "apocalypse", "attraction", "aventurier", "bouillotte", "citrouille", "controverse", "coquelicot", "dissimuler", "flibustier", "forestière", "grenouille", "impossible",
   "labyrinthe", "maharadjah", "péter", "hurler", "manger", "danser", "évier",
   "baccalauréat", "abracadabra", "francophile", "pandémonium", "chlorophylle", "métallurgie",
