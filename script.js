@@ -40,7 +40,11 @@ const figureParts = document.querySelectorAll('.figure-part');
 
 const words = [
   'application', 'pragrammer', 'chaussette', 'vache', 'quiche', 'electron', 'dindon', 'zizi', 'caca', 'jambon', 'avion', 'terre', 'caniche', 'voiture', 'joue', "maman", "taupe", "cabane", "mondial", "triangle", "dangereux", "tambourin", "labyrinthe", "kaléidoscope", "conquistador", "conspirateur", "rhododendron", "qualification", "Protozoaire", "quadrilatère", "zygomatique", "sorcellerie", "belligérant", "cithare", "chariot", "clairon", "corbeau", "cortège", "crapaud", "cymbale", "dentier", "djembé", "drapeau", "exemple", "fourmis", "grandir", "iceberg", "javelot", "jockey",
-  "journal", "journée", "jouxter", "losange", "macadam", "mondial", "notable", "oxygène", "panique", "pétrole, poterie, pouvoir, renégat, scooter, senteur, sifflet, spirale, sucette, trophe, tonneau, trousse, tunique, ukulélé, vautour", "zozoter"]
+  "journal", "journée", "jouxter", "losange", "macadam", "mondial", "notable", "oxygène", "panique", "pétrole, poterie, pouvoir, renégat, scooter, senteur, sifflet, spirale, sucette, trophe, tonneau, trousse, tunique, ukulélé, vautour", "zozoter",
+  "apocalypse", "attraction", "aventurier", "bouillotte", "citrouille", "controverse", "coquelicot", "dissimuler", "flibustier", "forestière", "grenouille", "impossible",
+  "labyrinthe", "maharadjah", "péter", "hurler", "manger", "danser", "évier",
+  "baccalauréat", "abracadabra", "francophile", "pandémonium", "chlorophylle", "métallurgie",
+]
 
 
 let selectedWord = words[Math.floor(Math.random() * words.length)]
@@ -114,25 +118,25 @@ function showNotification() {
 // keydown letter press
 window.addEventListener('keydown', e => {
   // console.log(e.keyCode);
-  if (e.keyCode >= 65 && e.keyCode <= 90) {
-    const letter = e.key
-    if (selectedWord.includes(letter)) {
-      if (!correctLetters.includes(letter)) {
-        correctLetters.push(letter)
-        displayWord()
-      } else {
-        showNotification()
-      }
+  // if (e.keyCode >= 65 && e.keyCode <= 90) {
+  const letter = e.key
+  if (selectedWord.includes(letter)) {
+    if (!correctLetters.includes(letter)) {
+      correctLetters.push(letter)
+      displayWord()
     } else {
-      if (!wrongLetters.includes(letter)) {
-        wrongLetters.push(letter)
-        updateWrongLettersEl()
-      } else {
-        showNotification()
-      }
+      showNotification()
     }
-
+  } else {
+    if (!wrongLetters.includes(letter)) {
+      wrongLetters.push(letter)
+      updateWrongLettersEl()
+    } else {
+      showNotification()
+    }
   }
+
+  // }
 })
 
 // Restart and play again 
