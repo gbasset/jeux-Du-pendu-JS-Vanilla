@@ -43,7 +43,7 @@ const words = [
   "journal", "journée", "jouxter", "losange", "macadam", "mondial", "notable", "oxygène", "panique", "pétrole", "poterie", "pouvoir", "renégat", "scooter", "senteur", "sifflet", "spirale", "sucette", "trophe", "tonneau", "trousse", "tunique", "ukulélé", "vautour", "zozoter", "slip-kangourou",
   "apocalypse", "attraction", "aventurier", "bouillotte", "citrouille", "controverse", "coquelicot", "dissimuler", "flibustier", "forestière", "grenouille", "impossible",
   "labyrinthe", "maharadjah", "péter", "hurler", "manger", "danser", "évier",
-  "baccalauréat", "abracadabra", "francophile", "pandémonium", "chlorophylle", "métallurgie",
+  "baccalauréat", "abracadabra", "francophile", "pandémonium", "chlorophylle", "métallurgie", "bière", 'citronade', 'étoile', 'mer', 'plage'
 ]
 
 
